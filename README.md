@@ -10,6 +10,7 @@ A simple web application that helps you convert air-conditioner BTU (British The
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+- [Screenshot](#screenshot)
 
 ## Installation
 
@@ -24,7 +25,7 @@ To set up the BTU to HP Converter locally, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd btu-to-hp_converter
+    cd btu-to-hp-converter
     ```
 
 3. Open `index.html` in your web browser to view the app.
@@ -47,9 +48,9 @@ To set up the BTU to HP Converter locally, follow these steps:
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature`).
+2. Create a new branch (`git checkout -b feature/YourFeature`).
 3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature`).
+4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a Pull Request.
 
 ## License
@@ -61,3 +62,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Inspired by the need for easy conversion of air-conditioning metrics.
 - Thanks to all contributors and libraries that made this project possible.
 
+## Screenshot
+
+![BTU to HP Converter Screenshot](assets/screenshot.jpg)
