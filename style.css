@@ -14,18 +14,6 @@ h1 {
 span {
     color: #ff0000;
 }
-/*.container {
-    height: 35vh;
-    width: 32vw;
-    border: 2px solid #ffffff;
-    background-color: #c23820;
-    border-radius: 20px;
-    margin: 2vw auto;
-    padding: 35px;
-    box-shadow: #0000ff;
-    font-weight: 700;
-    color: white;
-}*/
 
 button {
     border-radius: 25px;
@@ -51,7 +39,7 @@ button:hover {
 }
 
 #result {
-    color: #d50404;
+    color: #000;
     font-size: large;
     font-weight: 700;
     display: block;
