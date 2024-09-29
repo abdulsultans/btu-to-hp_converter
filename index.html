@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
+
+        <title>BTU to HP Converter</title>
+        <script>
+            function handleSubmit(event) {
+                event.preventDefault();
+                // Prevents the default form submission
+                const inputValue = document.getElementById("btuInput").value;
+                alert(`Submitted: ${inputValue}`);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>
+            <span>BTU</span> to <span>Horsepower</span>
+            <br />
+            Converter
+        </h1>
+        <div class="container">
+            <label for="btuInput">Enter BTU Rating:</label>
+            <br />
+            <br />
+            <input type="number" id="btuInput" placeholder="Enter the number of BTU here" />
+            <br />
+            <br />
+            <button onclick="convertBtuToHp()">Convert</button>
+            <p id="result"></p>
+        </div>
+    </body>
+</html>
