@@ -18,8 +18,8 @@ span {
 button {
     border-radius: 25px;
     font-weight: 700;
-    width: 15vw;
-    height: 4vh;
+    width: 150px;
+    height: 40px;
     border: hidden;
     background-color: #fc0000;
     color: #fff;
@@ -31,9 +31,9 @@ button:hover {
 
 #btuInput {
     text-align: center;
-    height: 4vh;
-    width: 15vw;
-    border: 1px solid #c3a603;
+    height: 40px;
+    width: 15px;
+    border: 2px solid #c3a603;
     border-radius: 25px;
     font-weight: 600;
 }
