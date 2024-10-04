@@ -3,18 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="script.js" defer></script>
-        <link rel="stylesheet" href="style.css" />
+        <script src="assets/btu-script.js" defer></script>
+        <link rel="stylesheet" href="assets/style.css" />
 
         <title>BTU to HP Converter</title>
-        <script>
-            function handleSubmit(event) {
-                event.preventDefault();
-                // Prevents the default form submission
-                const inputValue = document.getElementById("btuInput").value;
-                alert(`Submitted: ${inputValue}`);
-            }
-        </script>
     </head>
     <body>
         <h1>
@@ -22,15 +14,35 @@
             <br />
             Converter
         </h1>
-        <div class="container">
+        <div class="myForm">
+	    <form onsubmit="convertBtuToHp(); return false;">
             <label for="btuInput">Enter BTU Rating:</label>
             <br />
             <br />
             <input type="number" id="btuInput" placeholder="Enter the number of BTU here" />
             <br />
             <br />
-            <button onclick="convertBtuToHp()">Convert</button>
+            <button type="submit" aria-label="Convert BTU to Horsepower">Convert</button>
+	    <br />
+            <br />
             <p id="result"></p>
+	    </form>
         </div>
+
+<section>
+<aside>
+BTU stands for "British Thermal Units." 
+<br/>In the context of air conditioners, it is a unit of measurement that refers
+<br/> to the amount of heat the HVAC unit can remove from the room in an hour.
+<br/> The higher the BTU, the more powerful the AC system is and the more cooling capacity it has.
+<br/> This means a higher BTU-rated AC can cool a larger space compared to systems with lower BTU ratings.
+</aside>
+<small>This is for reference purpose only!</small>
+</section>
+	    <br />
+            <br />
     </body>
+<footer>
+This tool was created by <a href="https://github.com/abdulsultans/" target="_blank" rel="noopener">Abdul Sultan</a> on a bored <em>Tuesday</em>. You can check it out on <a href="https://github.com/abdulsultans/btu-to-hp_converter.git" target="_blank" rel="noopener"/>GitHub</a>
+</footer>
 </html>
